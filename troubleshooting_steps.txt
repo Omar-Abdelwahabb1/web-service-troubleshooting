@@ -1,0 +1,17 @@
+# Troubleshooting Steps for DNS or Network Issue
+
+## 1. Verify DNS Resolution
+
+### Check DNS resolution via system default DNS
+```bash
+nslookup internal.example.com
+
+--Trace the Issue
+Possible Issues:
+DNS misconfiguration
+
+Web service down
+
+Firewall blocking ports
+
+Network misconfiguration
